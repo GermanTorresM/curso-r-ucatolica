@@ -1,0 +1,64 @@
+---
+title: "Ejercicio 1"
+author: "Curso R UC"
+date: "02-12-2021"
+output:
+  html_document:
+    toc: true
+    toc_depth: 6
+    toc_float: true
+    theme: cerulean
+---
+
+# seccion 1: Este es un titulo
+
+## seccion 1.2: Este es un subtitulo
+
+
+
+Este es un pequeño texto en markdown.
+
+Y esta es una lista ordenada.
+
+1. texto 1
+2. texto 2
+3. text0 3
+
+### Sección 1.2.1: este es un sub sub título
+
+Aqui incorporamos una imagen
+
+![](https://d33wubrfki0l68.cloudfront.net/b88ef926a004b0fce72b2526b0b5c4413666a4cb/24a30/cover.png)
+
+
+# Sección 2: Este es otro título
+
+
+Aquí hay un [enlace](https://r4ds.had.co.nz/) a la versión en linea del libro R for Data Science. 
+
+> Esto es una cita.
+
+# Sección 3: Fórmula matemática
+
+Para fórmulas matemáticas simples usamos $x^2$ o $\bar{x}$
+
+Para fórmulas matemáticas complejas usamos:
+
+$$\sum_{i=2}^n \frac{x_i}{n} $$
+
+# Sección 4: insertar código
+
+
+```{r}
+x <- 5:20
+mean(x)
+
+```
+
+La media de x es `r mean(x)`.
+
+
+```{r, echo =FALSE}
+hist(datos::mtautos$millas)
+```
+
